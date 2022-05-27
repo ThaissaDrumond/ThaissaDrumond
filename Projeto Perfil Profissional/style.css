@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    height: 98vh; /*altura "da tela" - define que a altura será de 100 viewport - ocupando a tela inteira*/
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(236.85deg, #bddbff 27.26%, #e6f1ff 96.03%);
+    color: #021631;
+    font-family:'EB Garamond', serif ;
+}
+.cabecalho{
+display: flex;
+justify-content: space-around;
+position: absolute;
+padding: 10px;
+top: 0;
+right: 0;
+left: 0;
+max-height: 120px;
+background: #e2efff;
+color: 	#021631;
+}
+
+.nome h1{   
+    display: flex;    
+    font-weight: 300;
+    font-size: 36px;
+    margin: 5px;
+    color: #021631;
+}
+.nome h5{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+    max-height: 160px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #021631;
+}
+.botoes{
+    display: flex;
+    align-items: flex-end;
+}
+li{
+    margin: 5px;
+}
+ul{
+    padding:8;
+    margin: 0px;
+}
+.cv{
+    list-style: none; /*remove os tiks/bolinhas de listas*/
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    font-weight: 600;
+    max-width: 500px;
+    max-height: 160px;
+    
+}
+.cv:hover {
+    /*transform: scale(1.5);*/
+    transition-duration:0.3s;
+    cursor:pointer;
+}
+.container img{
+    
+    padding: 0;
+    max-height:  100%;
+    max-width:  100%;
+    height: 650PX;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #021631;
+}
+/*.cv button{
+    align-self: flex-end;
+    font-family: "Lobster Two", cursive;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    background: #041832;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+ul{
+    list-style: none; /*remove os tiks/bolinhas de listas
+}
+.WhatsApp{
+    width: 30px;
+    height: 30px;
+}
+.GitHub, .LinkedIn{
+    width: 35px;
+    height: 35px;
+}
+.container{
+    text-align: center;
+}
+#about p{
+    max-width: 600px;
+    margin: 0 auto;
+/*    text-align: center;
+}*/
+
+
+@media screen and (max-wifth: 400px) {
+        .nome h1{
+        font-size: 10px ;
+    }
+        .nome h5{
+            font-size: 5px;
+        }
+}
