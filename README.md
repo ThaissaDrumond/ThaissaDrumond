@@ -2,7 +2,7 @@
 
 ###### 📓 Software Engineering student 
 
-Atualmente cursando o segundo semestre de Engenharia de Software.
+Atualmente cursando Engenharia de Software.
 
  ###### 📖 Currently studying JavaScript and React Native
 
